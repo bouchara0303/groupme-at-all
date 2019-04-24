@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "npm run build",
     "build": "babel src -d scripts",
-    "start": "bin/hubot -- -a groupme"
+    "start": "bin/hubot -- -a groupme",
+    "varInitGM": "HUBOT_GROUPME_TOKEN=u9zZBzSoAHbq04pVWMqfi8IsOMwhX8NPh1sxr2C0 HUBOT_GROUPME_ROOM_ID=47150372 HUBOT_GROUPME_BOT_ID=2d329c9818966929bc65db4a04"
   },
   "engines": {
     "node": "8.7.x"
